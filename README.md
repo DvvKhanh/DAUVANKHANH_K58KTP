@@ -50,13 +50,13 @@
    ![image](https://github.com/user-attachments/assets/898b5bc7-4ffa-4bfb-9f95-24a04bd852b1)
 
   + Tạo Database QLSV
-   ![Untitled](https://github.com/user-attachments/assets/a4409155-565d-43fa-a793-fb0c4b8b9b1f)
+   ![image](https://github.com/user-attachments/assets/3d67f181-60c0-4194-b963-adc483e8cdfe)
 
 ### 2. Cách tạo bảng trong Database QLSV
   + Chọn Database QLSV -> Nhấp chuột phải vào Table -> Chọn New -> Chọn Table...
    ![Screenshot 2025-03-21 205704](https://github.com/user-attachments/assets/465d6a02-1658-4b5c-95e6-f9eb58b7838f)
    
-  #### 2.1 Bảng SinhVien
+  #### 2.1 Bảng SinhVien(#masv,hoten,NgaySinh)
   + Bảng SinhVien với các trường: Masv, Hoten, Ngaysinh
   + Kiểu dữ liệu:
     - Masv: varchar(13) -> kiểu dữ liệu varchar có chuỗi ký tự tối đa là 13 ký tự
@@ -85,19 +85,17 @@
 
   + Làm tương tự với các bảng còn lại theo yêu cầu đề bài
     
-  #### 2.2 Bảng Lop
+  #### 2.2 Bảng Lop(#maLop,tenLop)
     
   ![image](https://github.com/user-attachments/assets/58d778c6-72e2-4e6c-b3e2-50969d9ed8c3)
 
-    
   ![image](https://github.com/user-attachments/assets/02e9cc50-af30-4f71-896d-ab567a4280ee)
 
   + Ctrl+S để lưu bảng
     
   ![image](https://github.com/user-attachments/assets/74ad5b6c-52cb-4190-9fb0-dbd33ac980aa)
 
-
-  #### 2.3 Bảng GVCN
+  #### 2.3 Bảng GVCN(#@maLop,#@magv,#HK)
 
   ![image](https://github.com/user-attachments/assets/a1a1d960-6c90-4992-9699-ac84b813769c)
 
@@ -107,7 +105,7 @@
 
   ![image](https://github.com/user-attachments/assets/6654a0d5-a692-4ef4-aff4-9c347975a000)
 
-  #### 2.4 Bảng LopSV
+  #### 2.4 Bảng LopSV(#@maLop,#@maSV,ChucVu)
 
   ![image](https://github.com/user-attachments/assets/db410490-3dfd-4a7e-ba66-70ceb2edc18c)
 
@@ -116,42 +114,42 @@
   + Ctrl+S để lưu bảng
    ![image](https://github.com/user-attachments/assets/f04a91e1-687f-4aa8-999d-9df3efca4572)
 
-  #### 2.5 Bảng GiaoVien
+  #### 2.5 Bảng GiaoVien(#magv,hoten,NgaySinh,@maBM)
   ![image](https://github.com/user-attachments/assets/197d2db3-a27e-428a-a4c3-beacc4f99d24)
 
   ![image](https://github.com/user-attachments/assets/34108364-9b4c-4f66-96e3-e71d5fff9507)
 
   ![Screenshot 2025-03-21 213501](https://github.com/user-attachments/assets/6a84eacb-9fbf-489c-87c3-8a8d82957b50)
 
-  #### 2.6 Bảng BoMon
+  #### 2.6 Bảng BoMon(#MaBM,tenBM,@maKhoa)
   ![image](https://github.com/user-attachments/assets/c85e84aa-865b-4698-8711-4c524fa8bdc4)
 
   ![Screenshot 2025-03-21 215946](https://github.com/user-attachments/assets/5130c4c7-db5d-474c-b7ed-d9157f043375)
 
   ![Screenshot 2025-03-21 220005](https://github.com/user-attachments/assets/7b9b22b7-0d63-40ee-a038-952354a687f9)
 
-  #### 2.7 Bảng Khoa
+  #### 2.7 Bảng Khoa(#maKhoa,tenKhoa)
   ![image](https://github.com/user-attachments/assets/eb4bd02f-349c-45ae-8873-9e2754969b45)
 
   ![image](https://github.com/user-attachments/assets/ec3b6cea-5109-4eac-b575-41df545051db)
 
   ![image](https://github.com/user-attachments/assets/2dbeb596-fa22-452d-bd53-69e8c677a93c)
 
-  #### 2.8 Bảng MonHoc
+  #### 2.8 Bảng MonHoc(#mamon,Tenmon,STC)
   ![image](https://github.com/user-attachments/assets/b5056b50-cbe9-4eb5-90ab-7098b0e3b837)
 
   ![Screenshot 2025-03-21 220808](https://github.com/user-attachments/assets/45f0066e-201f-4cd7-ad73-a6936111ca0b)
 
   ![Screenshot 2025-03-21 220828](https://github.com/user-attachments/assets/8b137208-00a6-4c10-ae5b-1d509dc0c5f6)
 
-  #### 2.9 Bảng LopHP
+  #### 2.9 Bảng LopHP(#maLopHP,TenLopHP,HK,@maMon,@maGV)
   ![image](https://github.com/user-attachments/assets/961c62cd-731f-4b46-9763-68607613f172)
 
   ![Screenshot 2025-03-21 221139](https://github.com/user-attachments/assets/caf04c49-bb58-4291-ad12-5d7ae210256e)
 
   ![Screenshot 2025-03-21 221202](https://github.com/user-attachments/assets/8cf1f0d2-ec21-4c24-93b5-5a542c9881d6)
 
-  #### 2.10 Bảng DKMH
+  #### 2.10 Bảng DKMH(#@maLopHP,#@maSV,DiemTP,DiemThi,PhanTramThi)
   ![image](https://github.com/user-attachments/assets/87eac70d-a2cb-4568-8474-a51d9169f260)
 
   ![Screenshot 2025-03-21 221941](https://github.com/user-attachments/assets/ce62541a-ec9f-413e-8a42-e267262ce84a)
@@ -168,6 +166,72 @@
 
 
   ### 3. Thiết lập PK, FK(s) và CK(s)
+  #### 3.1 Tạo FK cho bảng GVCN
+  + Khóa ngoại (Foreign Key - FK) được dùng để tăng tính tham chiếu trong cơ sở dữ liệu SQL Server. Khóa ngoại nghĩa là giá trị trong bảng này phải xuất hiện trong bảng khác.
+  + Trong cửa sổ thiết kế bảng -> Nhấn chuột phải vào vùng trống -> Chọn Relationships
+    
+  ![Screenshot 2025-03-22 222625](https://github.com/user-attachments/assets/b775f8ce-719b-4021-bc78-04fc06a00308)
+
+  + FK_GVCN_Lop: Khóa ngoại trong bảng GVCN tham chiếu đến khóa chính của bảng Lop.
+
+  ![image](https://github.com/user-attachments/assets/85012198-3f96-4aaa-83b7-74155c6f3340)
+
+  ![image](https://github.com/user-attachments/assets/34792493-56c8-45f7-a868-9ff00348a6a0)
+
+  ![image](https://github.com/user-attachments/assets/e1c08d85-d579-4a45-baaa-1d20afb55b81)
+
+  ![image](https://github.com/user-attachments/assets/4f3733dd-8ff6-4863-b214-bb8b321acbeb)
+
+  ![image](https://github.com/user-attachments/assets/16b06720-0081-4fa5-96cc-c6a7624dd430)
+
+  + Làm tương tự với các bảng khác.
+
+  #### 3.2 Tạo FK cho bảng LopSV
+  
+  ![image](https://github.com/user-attachments/assets/6831b210-eb03-457e-86aa-5a46e8c4bf62)
+
+  ![image](https://github.com/user-attachments/assets/9a733388-77d0-49a1-b5fb-f19f6d748eca)
+
+  + Nhấn Close -> ctrl+S để lưu
+  ![image](https://github.com/user-attachments/assets/589c6ce9-b7ef-4918-9f17-4ae0120f10f6)
+
+  #### 3.3 Tạo FK cho bảng GiaoVien
+
+  ![image](https://github.com/user-attachments/assets/6b3714f0-a58e-4199-8de7-4929bc652fca)
+  
+  #### 3.4 Tạo FK cho bảng BoMon
+
+  ![image](https://github.com/user-attachments/assets/7338e51b-6747-4fc7-b38b-29e35e2b3dd8)
+
+  #### 3.5 Tạo FK cho bảng LopHP
+
+  ![image](https://github.com/user-attachments/assets/f395a4be-8f1d-41c2-9b3c-85dfffcc8c00)
+
+  ![image](https://github.com/user-attachments/assets/7632e21f-5408-44e3-9299-cc6c6cf7c30d)
+
+  + Nhấn Close -> Ctrl+S để lưu lại
+  ![image](https://github.com/user-attachments/assets/75a1c5c6-87e4-4b6c-ab37-b7748a2ab8a6)
+
+  #### 3.6 Tạo FK cho bảng DKMH
+
+  ![image](https://github.com/user-attachments/assets/c57b3419-4b13-4cc6-9da6-11c623b13748)
+
+  ![image](https://github.com/user-attachments/assets/a5a35253-cfe7-452b-b0ef-9c443a913df1)
+
+  + Nhấn Close -> Ctrl+S để lưu lại
+  ![image](https://github.com/user-attachments/assets/6270eeb0-a172-4e42-a4c1-dd9a45af5a04)
+
+
+
+
+
+
+
+  
+
+  
+
+
 
 
 
