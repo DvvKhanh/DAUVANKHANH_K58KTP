@@ -46,20 +46,17 @@
 
 ## BÀI LÀM:
 ### 1. Cách tạo Database mới
-  + Chọn Database -> Nhấp chuột phải chọn New Database
-   ![Screenshot 2025-03-21 205521](https://github.com/user-attachments/assets/b421b1cf-ad75-4cfe-899b-98aef36c560d)
 
-### 2. Tạo Database QLSV
+   ![image](https://github.com/user-attachments/assets/898b5bc7-4ffa-4bfb-9f95-24a04bd852b1)
+
+  + Tạo Database QLSV
    ![Untitled](https://github.com/user-attachments/assets/a4409155-565d-43fa-a793-fb0c4b8b9b1f)
 
-### 3. Cách tạo bảng trong Database QLSV
-  + Chọn Database QLSV -> Chọn Table -> Nhấp chuột phải chọn New -> Table...
+### 2. Cách tạo bảng trong Database QLSV
+  + Chọn Database QLSV -> Nhấp chuột phải vào Table -> Chọn New -> Chọn Table...
    ![Screenshot 2025-03-21 205704](https://github.com/user-attachments/assets/465d6a02-1658-4b5c-95e6-f9eb58b7838f)
    
-  #### 3.1 Bảng SinhVien
-
-![Untitled](https://github.com/user-attachments/assets/cdf87cf3-d159-4355-a773-be1f0adccea4)
-
+  #### 2.1 Bảng SinhVien
   + Bảng SinhVien với các trường: Masv, Hoten, Ngaysinh
   + Kiểu dữ liệu:
     - Masv: varchar(13) -> kiểu dữ liệu varchar có chuỗi ký tự tối đa là 13 ký tự
@@ -73,39 +70,41 @@
        Varchar là tốt hơn để ѕử dụnɡ ở nhữnɡ nơi có biến với các ký tự khônɡ phải là ký tự Unicode. Nvarchar được ѕử dụnɡ ở nhữnɡ nơi có nhiều ký tự Unicode khác nhau.
     -  Kích thước lưu trữ của varchar là ѕố byte bằnɡ với ѕố ký tự cộnɡ với hai byte được dành riênɡ cho bù đắp. Nvarchar ѕử dụnɡ ѕố byte bằnɡ với hai lần ѕố ký tự cộnɡ với hai byte được dành riênɡ cho bù đắp.
     -  Tất cả các hệ điều hành hiện đại và các nền tảnɡ phát triển ѕử dụnɡ Unicode nội bộ. Vì vậy, nvarchar được ѕử dụnɡ rất nhiều thay vì varchar để tránh chuyển đổi các kiểu dữ liệu.
+      
+  ![Untitled](https://github.com/user-attachments/assets/cdf87cf3-d159-4355-a773-be1f0adccea4)
+
+  + Chọn Masv làm khóa chính: Click chuột phải vào hàng Masv -> Chọn Set Primary Key. Khi chọn Masv làm khóa chính thì cột Allow Nulls của Masv không được tích vì không được để trống(not NULL).
 
   ![image](https://github.com/user-attachments/assets/1c1daef5-9c48-425e-9485-edba2726fb7f)
   
-  + Chọn Masv làm khóa chính: Click chuột phải vào hàng Masv -> Chọn Set Primary Key. Khi chọn Masv làm khóa chính thì cột Allow Nulls của Masv không được tích vì không được để trống(not NULL).
-
+  + Ctrl+S để lưu tên bảng là SinhVien
   ![image](https://github.com/user-attachments/assets/29ed2c89-694d-407a-b548-dae8df545c26)
 
-  + Lưu tên bảng là SinhVien
+  + Tiếp tục nhấp chuột phải vào Table -> Chọn New -> Chọn Table... để tạo bảng mới
+  ![image](https://github.com/user-attachments/assets/04fd9c27-46fa-42cc-baf5-4464b369d71d)
 
-  #### 3.2 Bang Lop
-  + Khai báo các trường và kiểu dữ liệu phù hợp với các trường
+  + Làm tương tự với các bảng còn lại theo yêu cầu đề bài
+    
+  #### 2.2 Bảng Lop
     
   ![image](https://github.com/user-attachments/assets/58d778c6-72e2-4e6c-b3e2-50969d9ed8c3)
 
-  + Chọn Malop làm khóa chính
     
   ![image](https://github.com/user-attachments/assets/02e9cc50-af30-4f71-896d-ab567a4280ee)
 
-  + Lưu tên bảng là Lop
+  + Ctrl+S để lưu bảng
     
   ![image](https://github.com/user-attachments/assets/74ad5b6c-52cb-4190-9fb0-dbd33ac980aa)
 
 
-  #### 3.3 Bảng GVCN
-  + Khai báo các trường và kiểu dữ liệu phù hợp với các trường
+  #### 2.3 Bảng GVCN
 
   ![image](https://github.com/user-attachments/assets/a1a1d960-6c90-4992-9699-ac84b813769c)
 
-  + Chọn Malop và Magv làm khóa chính: Nhấn phím ctrl chọn 2 hàng Malop và Magv -> click chuột phải chọn Set Primary Key
 
-  ![Screenshot 2025-03-21 210649](https://github.com/user-attachments/assets/8336e448-ba07-4b21-a915-448416f0866e)
+  ![image](https://github.com/user-attachments/assets/7fd8ee6d-af8f-4a2f-b875-c423a5272caa)
 
-  + Lưu tên bảng là GVCN
+  + Ctrl+S để lưu bảng 
 
   ![image](https://github.com/user-attachments/assets/d560faa7-a91b-443d-b8ac-485515dd02cf)
 
@@ -114,6 +113,78 @@
   ![image](https://github.com/user-attachments/assets/d25c6d68-7ec4-4ee8-a871-eb26a82e7fca)
 
   ![image](https://github.com/user-attachments/assets/65e4e515-a183-47d9-adee-9913c4bd4633)
+
+  #### 2.4 Bảng LopSV
+
+  ![image](https://github.com/user-attachments/assets/db410490-3dfd-4a7e-ba66-70ceb2edc18c)
+
+  ![image](https://github.com/user-attachments/assets/b5a63c57-f81d-4682-9373-88aa62a232c1)
+
+  + Ctrl+S để lưu bảng
+   ![image](https://github.com/user-attachments/assets/f04a91e1-687f-4aa8-999d-9df3efca4572)
+
+  #### 2.5 Bảng GiaoVien
+  ![image](https://github.com/user-attachments/assets/197d2db3-a27e-428a-a4c3-beacc4f99d24)
+
+  ![image](https://github.com/user-attachments/assets/34108364-9b4c-4f66-96e3-e71d5fff9507)
+
+  ![Screenshot 2025-03-21 213501](https://github.com/user-attachments/assets/6a84eacb-9fbf-489c-87c3-8a8d82957b50)
+
+  #### 2.6 Bảng BoMon
+  ![image](https://github.com/user-attachments/assets/c85e84aa-865b-4698-8711-4c524fa8bdc4)
+
+  ![Screenshot 2025-03-21 215946](https://github.com/user-attachments/assets/5130c4c7-db5d-474c-b7ed-d9157f043375)
+
+  ![Screenshot 2025-03-21 220005](https://github.com/user-attachments/assets/7b9b22b7-0d63-40ee-a038-952354a687f9)
+
+  #### 2.7 Bảng Khoa
+  ![image](https://github.com/user-attachments/assets/eb4bd02f-349c-45ae-8873-9e2754969b45)
+
+  ![image](https://github.com/user-attachments/assets/ec3b6cea-5109-4eac-b575-41df545051db)
+
+  ![image](https://github.com/user-attachments/assets/2dbeb596-fa22-452d-bd53-69e8c677a93c)
+
+  #### 2.8 Bảng MonHoc
+  ![image](https://github.com/user-attachments/assets/b5056b50-cbe9-4eb5-90ab-7098b0e3b837)
+
+  ![Screenshot 2025-03-21 220808](https://github.com/user-attachments/assets/45f0066e-201f-4cd7-ad73-a6936111ca0b)
+
+  ![Screenshot 2025-03-21 220828](https://github.com/user-attachments/assets/8b137208-00a6-4c10-ae5b-1d509dc0c5f6)
+
+  #### 2.9 Bảng LopHP
+  ![image](https://github.com/user-attachments/assets/961c62cd-731f-4b46-9763-68607613f172)
+
+  ![Screenshot 2025-03-21 221139](https://github.com/user-attachments/assets/caf04c49-bb58-4291-ad12-5d7ae210256e)
+
+  ![Screenshot 2025-03-21 221202](https://github.com/user-attachments/assets/8cf1f0d2-ec21-4c24-93b5-5a542c9881d6)
+
+  #### 2.10 Bảng DKMH
+  ![image](https://github.com/user-attachments/assets/87eac70d-a2cb-4568-8474-a51d9169f260)
+
+  ![Screenshot 2025-03-21 221941](https://github.com/user-attachments/assets/ce62541a-ec9f-413e-8a42-e267262ce84a)
+
+  ![Screenshot 2025-03-21 222002](https://github.com/user-attachments/assets/d8a88301-b9ec-44af-9efc-2557e50b331d)
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
 
   
 
