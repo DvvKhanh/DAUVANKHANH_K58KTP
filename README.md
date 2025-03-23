@@ -214,12 +214,13 @@
 
   #### 3.6 Tạo FK cho bảng DKMH
 
-  ![image](https://github.com/user-attachments/assets/c57b3419-4b13-4cc6-9da6-11c623b13748)
+  ![image](https://github.com/user-attachments/assets/a329de82-d3fc-459b-889e-26e37ecbd804)
 
   ![image](https://github.com/user-attachments/assets/a5a35253-cfe7-452b-b0ef-9c443a913df1)
 
   + Nhấn Close -> Ctrl+S để lưu lại
-  ![image](https://github.com/user-attachments/assets/6270eeb0-a172-4e42-a4c1-dd9a45af5a04)
+  ![image](https://github.com/user-attachments/assets/5b8f80ea-ce26-486e-9265-b4788122361f)
+
 
 
 
