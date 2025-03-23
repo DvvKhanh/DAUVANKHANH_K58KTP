@@ -78,7 +78,7 @@
   ![image](https://github.com/user-attachments/assets/1c1daef5-9c48-425e-9485-edba2726fb7f)
   
   + Ctrl+S để lưu tên bảng là SinhVien
-  ![image](https://github.com/user-attachments/assets/29ed2c89-694d-407a-b548-dae8df545c26)
+  ![image](https://github.com/user-attachments/assets/0a1c9e26-bd84-4390-ba27-f61fa7271941)
 
   + Tiếp tục nhấp chuột phải vào Table -> Chọn New -> Chọn Table... để tạo bảng mới
   ![image](https://github.com/user-attachments/assets/04fd9c27-46fa-42cc-baf5-4464b369d71d)
@@ -101,18 +101,11 @@
 
   ![image](https://github.com/user-attachments/assets/a1a1d960-6c90-4992-9699-ac84b813769c)
 
-
-  ![image](https://github.com/user-attachments/assets/7fd8ee6d-af8f-4a2f-b875-c423a5272caa)
+  ![image](https://github.com/user-attachments/assets/3c2a8f5b-6c24-43e0-81f3-f44d0c86ff1b)
 
   + Ctrl+S để lưu bảng 
 
-  ![image](https://github.com/user-attachments/assets/d560faa7-a91b-443d-b8ac-485515dd02cf)
-
-  + Thiết lập Malop và Magv làm khóa ngoại: Trong cửa sổ thiết kế bảng, nhấn chuột phải vào chỗ trống -> Chọn Relationships..
-
-  ![image](https://github.com/user-attachments/assets/d25c6d68-7ec4-4ee8-a871-eb26a82e7fca)
-
-  ![image](https://github.com/user-attachments/assets/65e4e515-a183-47d9-adee-9913c4bd4633)
+  ![image](https://github.com/user-attachments/assets/6654a0d5-a692-4ef4-aff4-9c347975a000)
 
   #### 2.4 Bảng LopSV
 
@@ -165,7 +158,16 @@
 
   ![Screenshot 2025-03-21 222002](https://github.com/user-attachments/assets/d8a88301-b9ec-44af-9efc-2557e50b331d)
 
+  + Sau khi tạo xong tất cả các bảng: Nhấn chuột phải vào Table -> Chọn Refresh để hiển thị tất cả các bảng vừa tạo
+    
+  ![image](https://github.com/user-attachments/assets/44acfec4-18fc-4073-97c4-d15fdd9342d6)
 
+  + Kết quả hiển thị
+    
+  ![image](https://github.com/user-attachments/assets/5b2e4834-6fe1-4f04-b0e3-578455d3ca3a)
+
+
+  ### 3. Thiết lập PK, FK(s) và CK(s)
 
 
 
