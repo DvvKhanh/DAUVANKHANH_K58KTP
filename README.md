@@ -222,9 +222,10 @@
 
   #### 3.3 Tạo FK cho bảng GiaoVien
 
-  ![image](https://github.com/user-attachments/assets/6b3714f0-a58e-4199-8de7-4929bc652fca)
+  ![image](https://github.com/user-attachments/assets/b02932c1-0f30-4188-b162-a5c1d60f04a2)
 
-  + Thiết lập điều kiện cho Ngaysinh ()
+  + Thiết lập điều kiện cho Ngaysinh (Ngaysinh >='1970-01-01' AND Ngaysinh<='2002-12-31')
+  ![Screenshot 2025-03-24 174439](https://github.com/user-attachments/assets/c7a0da23-be1a-42f0-bbf0-ec9ed3e48697)
   
   #### 3.4 Tạo FK cho bảng BoMon
 
@@ -239,6 +240,9 @@
   + Nhấn Close -> Ctrl+S để lưu lại
   ![image](https://github.com/user-attachments/assets/75a1c5c6-87e4-4b6c-ab37-b7748a2ab8a6)
 
+  + Thiết lập điều kiện cho HK (HK >= 1 AND HK <= 3)
+  ![image](https://github.com/user-attachments/assets/e8950343-9ff2-49e3-a589-a741634d817a)
+
   #### 3.6 Tạo FK cho bảng DKMH
 
   ![image](https://github.com/user-attachments/assets/a329de82-d3fc-459b-889e-26e37ecbd804)
@@ -248,7 +252,14 @@
   + Nhấn Close -> Ctrl+S để lưu lại
   ![image](https://github.com/user-attachments/assets/5b8f80ea-ce26-486e-9265-b4788122361f)
 
+  + Thiết lập điều kiện cho DiemTP (DiemTP >= 0 AND DiemTP <= 10 )
+  ![image](https://github.com/user-attachments/assets/342c5fb7-0f64-456c-a3fc-c8ce5c4f9079)
 
+  + Thiết lập điều kiện cho Diemthi (Diemthi >= 0 AND Diemthi <= 10)
+  ![image](https://github.com/user-attachments/assets/5339516b-9497-4700-aa1e-34d0c3a3ca8e)
+
+  + Thiết lập điều kiện cho Phantramthi (Phantramthi >= 0 AND Phantramthi <= 100)
+  ![image](https://github.com/user-attachments/assets/76aa206d-91b1-40a8-a77a-a8afeb208cb7)
 
 
 
