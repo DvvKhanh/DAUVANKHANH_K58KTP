@@ -174,7 +174,7 @@
 
   ![image](https://github.com/user-attachments/assets/1c4b6229-cec1-424b-a3d5-963a961e11a9)
 
-  ![image](https://github.com/user-attachments/assets/dc581b27-b3da-4648-9b25-dd8397d3bcc9)
+  ![Screenshot 2025-03-24 214526](https://github.com/user-attachments/assets/3d3d70e1-92c6-49ed-b3ec-063268d6a6c4)
 
   + Kiểm tra điều kiện:
     
@@ -265,7 +265,21 @@
   ![image](https://github.com/user-attachments/assets/54565a5a-92de-45db-a6b7-3dcc789f3076)
 
   ### 4. Chuyển các thao tác đồ hoạ trên thành lệnh SQL tương đương. Lưu tất cả các lệnh SQL trong file: Script_DML.sql
+
+  ![Screenshot 2025-03-24 202752](https://github.com/user-attachments/assets/3dfd74b6-2bef-41ae-a51f-9deca5b552dd)
+
+  ![Screenshot 2025-03-24 204344](https://github.com/user-attachments/assets/0004fa62-b355-40e4-b438-86ceba6fe4a5)
+
+  ![Screenshot 2025-03-24 210204](https://github.com/user-attachments/assets/0bb80ffb-d71a-4250-ae4f-cc084541596b)
+  + Còn Select specific database objects: Chọn các đối tượng cụ thể của cơ sở dữ liệu để tạo script.
+
+  ![image](https://github.com/user-attachments/assets/de705cb9-d12b-4683-93b7-90f86843cb3e)
+
+
   
+
+
+
 
 
 
