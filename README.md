@@ -185,6 +185,10 @@
   ![image](https://github.com/user-attachments/assets/df3424d0-2c4c-47c1-a668-57cface1d67a)
   → Như trong hình, em nhập Ngaysinh là '2025-03-25' không thỏa mãn điều kiện vì em vừa đặt điều kiện là: Ngaysinh >= '1995-01-01'AND Ngaysinh <= getdate() 
     (getdate có thể hiểu là <= ngày hiện tại) nên là không thoản mãn điều kiện.(Hôm nay ngày 24/03/2025)
+
+  + Thiết lập điều kiện cho Hoten(Hoten != N'Khánh')
+  ![Screenshot 2025-03-24 200539](https://github.com/user-attachments/assets/dd17001c-8a7f-456b-919c-9c4f8599237d)
+  → Như hình trên, thông báo điều kiện sai vì nhập Hoten là 'Khánh'(Đk: Hoten != N'Khánh').
     
   #### 3.1 Tạo FK cho bảng GVCN
   + Khóa ngoại (Foreign Key - FK) được dùng để tăng tính tham chiếu trong cơ sở dữ liệu SQL Server. Khóa ngoại nghĩa là giá trị trong bảng này phải xuất hiện trong bảng khác.
