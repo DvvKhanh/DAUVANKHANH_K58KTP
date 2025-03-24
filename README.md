@@ -83,7 +83,7 @@
   + Tiếp tục nhấp chuột phải vào Table -> Chọn New -> Chọn Table... để tạo bảng mới
   ![image](https://github.com/user-attachments/assets/04fd9c27-46fa-42cc-baf5-4464b369d71d)
 
-  + Làm tương tự với các bảng còn lại theo yêu cầu đề bài
+  ## + Làm tương tự với các bảng còn lại theo yêu cầu đề bài.
     
   #### 2.2 Bảng Lop(#maLop,tenLop)
     
@@ -166,6 +166,26 @@
 
 
   ### 3. Thiết lập PK, FK(s) và CK(s)
+  
+  #### Thiết lập điều kiện cho Ngaysinh (Bảng SinhVien) → Check Constraints: Ràng buộc kiểm tra giúp đảm bảo dữ liệu nhập vào bảng phải thỏa mãn điều kiện nhất định.
+  ![image](https://github.com/user-attachments/assets/8ae6042d-d0f3-4d55-874d-783dbdc4f544)
+
+  ![image](https://github.com/user-attachments/assets/5f1a5a90-da9a-458a-a34f-e2dd5f57f147)
+
+  ![image](https://github.com/user-attachments/assets/1c4b6229-cec1-424b-a3d5-963a961e11a9)
+
+  ![image](https://github.com/user-attachments/assets/dc581b27-b3da-4648-9b25-dd8397d3bcc9)
+
+  + Kiểm tra điều kiện:
+    
+  ![image](https://github.com/user-attachments/assets/bce2d80b-6fa5-4d3e-955b-5ce796381646)
+
+  ![Screenshot 2025-03-24 162040](https://github.com/user-attachments/assets/ea62fb0a-bea1-4c8b-87f1-98a9f81b9d70)
+
+  ![image](https://github.com/user-attachments/assets/df3424d0-2c4c-47c1-a668-57cface1d67a)
+  → Như trong hình, em nhập Ngaysinh là '2025-03-25' không thỏa mãn điều kiện vì em vừa đặt điều kiện là: Ngaysinh >= '1995-01-01'AND Ngaysinh <= getdate() 
+    (getdate có thể hiểu là <= ngày hiện tại) nên là không thoản mãn điều kiện.(Hôm nay ngày 24/03/2025)
+    
   #### 3.1 Tạo FK cho bảng GVCN
   + Khóa ngoại (Foreign Key - FK) được dùng để tăng tính tham chiếu trong cơ sở dữ liệu SQL Server. Khóa ngoại nghĩa là giá trị trong bảng này phải xuất hiện trong bảng khác.
   + Trong cửa sổ thiết kế bảng -> Nhấn chuột phải vào vùng trống -> Chọn Relationships
@@ -176,6 +196,7 @@
 
   ![image](https://github.com/user-attachments/assets/85012198-3f96-4aaa-83b7-74155c6f3340)
 
+  + Khóa chính Malop trong bảng Lop được liên kết với khóa ngoại Malop trong bảng GVCN để đảm bảo tính toàn vẹn dữ liệu.
   ![image](https://github.com/user-attachments/assets/34792493-56c8-45f7-a868-9ff00348a6a0)
 
   ![image](https://github.com/user-attachments/assets/e1c08d85-d579-4a45-baaa-1d20afb55b81)
@@ -184,7 +205,11 @@
 
   ![image](https://github.com/user-attachments/assets/16b06720-0081-4fa5-96cc-c6a7624dd430)
 
-  + Làm tương tự với các bảng khác.
+  + Thiết lập điều kiện cho HK (HK >= 1 AND HK <= 3)
+  ![Screenshot 2025-03-24 172357](https://github.com/user-attachments/assets/4ff727a4-cb19-42d2-b1ce-04d2e9c89b8d)
+
+
+  ## + Làm tương tự với các bảng khác.
 
   #### 3.2 Tạo FK cho bảng LopSV
   
@@ -198,6 +223,8 @@
   #### 3.3 Tạo FK cho bảng GiaoVien
 
   ![image](https://github.com/user-attachments/assets/6b3714f0-a58e-4199-8de7-4929bc652fca)
+
+  + Thiết lập điều kiện cho Ngaysinh ()
   
   #### 3.4 Tạo FK cho bảng BoMon
 
