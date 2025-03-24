@@ -261,6 +261,12 @@
   + Thiết lập điều kiện cho Phantramthi (Phantramthi >= 0 AND Phantramthi <= 100)
   ![image](https://github.com/user-attachments/assets/76aa206d-91b1-40a8-a77a-a8afeb208cb7)
 
+  #### Thiết lập điều kiện cho STC trong bảng MonHoc (STC >= 1 AND STC <= 4)
+  ![image](https://github.com/user-attachments/assets/54565a5a-92de-45db-a6b7-3dcc789f3076)
+
+  ### 4. Chuyển các thao tác đồ hoạ trên thành lệnh SQL tương đương. Lưu tất cả các lệnh SQL trong file: Script_DML.sql
+  
+
 
 
 
