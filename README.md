@@ -264,7 +264,7 @@
   #### Thiết lập điều kiện cho STC trong bảng MonHoc (STC >= 1 AND STC <= 4)
   ![image](https://github.com/user-attachments/assets/54565a5a-92de-45db-a6b7-3dcc789f3076)
 
-  ### 4. Chuyển các thao tác đồ hoạ trên thành lệnh SQL tương đương. Lưu tất cả các lệnh SQL trong file: Script_DML.sql
+   ### 4. Chuyển các thao tác đồ hoạ trên thành lệnh SQL tương đương. Lưu tất cả các lệnh SQL trong file: Script_DML.sql
 
   ![Screenshot 2025-03-24 202752](https://github.com/user-attachments/assets/3dfd74b6-2bef-41ae-a51f-9deca5b552dd)
 
@@ -273,11 +273,14 @@
   ![Screenshot 2025-03-24 210204](https://github.com/user-attachments/assets/0bb80ffb-d71a-4250-ae4f-cc084541596b)
   + Còn Select specific database objects: Chọn các đối tượng cụ thể của cơ sở dữ liệu để tạo script.
 
-  ![image](https://github.com/user-attachments/assets/de705cb9-d12b-4683-93b7-90f86843cb3e)
+  ![image](https://github.com/user-attachments/assets/ec6702ec-a2f3-4058-8f14-04c19d7be50b)
 
-  ![Screenshot 2025-03-24 220755](https://github.com/user-attachments/assets/fb8df2ff-ae15-4d91-9d94-f02773716dcb)
+  ![image](https://github.com/user-attachments/assets/b047ca1a-12c2-4c86-99eb-c7a4e9c52fdd)
 
-  ![image](https://github.com/user-attachments/assets/bdc998ad-6838-45d2-a184-10a4e478201f)
+  + Xuất file thành công 
+  ![image](https://github.com/user-attachments/assets/a838443e-5c73-44df-8e3c-9c3809915f2d)
+
+🍀🍀🍀🍀🍀🍀 Em cảm ơn thầy đã xem phần trình bày của em!
 
 
 
