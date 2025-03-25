@@ -186,6 +186,8 @@
 
   + Thiết lập điều kiện cho Hoten(Hoten != N'Khánh')
   ![Screenshot 2025-03-24 200539](https://github.com/user-attachments/assets/dd17001c-8a7f-456b-919c-9c4f8599237d)
+
+  ![Screenshot 2025-03-24 200202](https://github.com/user-attachments/assets/f5d2e41d-8ba0-4316-ab3f-b5188d5a2608)
   → Như hình trên, thông báo điều kiện sai vì nhập Hoten là 'Khánh'(Đk: Hoten != N'Khánh').
     
   #### 3.1 Tạo FK cho bảng GVCN
