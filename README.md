@@ -180,8 +180,6 @@
     
   ![image](https://github.com/user-attachments/assets/bce2d80b-6fa5-4d3e-955b-5ce796381646)
 
-  ![Screenshot 2025-03-24 162040](https://github.com/user-attachments/assets/ea62fb0a-bea1-4c8b-87f1-98a9f81b9d70)
-
   ![image](https://github.com/user-attachments/assets/df3424d0-2c4c-47c1-a668-57cface1d67a)
   → Như trong hình, em nhập Ngaysinh là '2025-03-25' không thỏa mãn điều kiện vì em vừa đặt điều kiện là: Ngaysinh >= '1995-01-01'AND Ngaysinh <= getdate() 
     (getdate có thể hiểu là <= ngày hiện tại) nên là không thoản mãn điều kiện.(Hôm nay ngày 24/03/2025)
