@@ -71,6 +71,8 @@
 ## 2. Nhập dữ liệu demo cho các bảng (nhập có kiểm soát từ tính năng Edit trên UI của mssm)
 ☘ Bảng Sinh Vien
 
+![image](https://github.com/user-attachments/assets/935d5825-a23d-4e01-9d82-5346164a4d07)
+
 ![image](https://github.com/user-attachments/assets/be96c3e5-5234-4f75-b13f-4d8cbf2a3888)
 
 ☘ Bảng Lop
@@ -83,11 +85,11 @@
 
 ☘ Bảng LopSV
 
-![image](https://github.com/user-attachments/assets/98f175fc-a7cc-46ef-867d-ff686961c1d9)
+![image](https://github.com/user-attachments/assets/c0857f8a-0885-4b82-8875-b9b133c95920)
 
 ☘ Bảng GiaoVien
 
-![image](https://github.com/user-attachments/assets/2e7be0d3-74cb-457a-8716-b4307395d063)
+![image](https://github.com/user-attachments/assets/3736448a-37f5-4a6f-a195-81aad61dae00)
 
 ☘ Bảng BoMon
 
@@ -99,7 +101,7 @@
 
 ☘ Bảng MonHoc
 
-![image](https://github.com/user-attachments/assets/aff43ab0-1442-4398-9aa4-43185d496522)
+![image](https://github.com/user-attachments/assets/d6406836-5d42-454e-b077-8487132e1ae1)
 
 ☘ Bảng LopHP
 
@@ -107,7 +109,7 @@
 
 ☘ Bảng DKMH
 
-![image](https://github.com/user-attachments/assets/fa6adfe4-28a1-4049-be9a-cba55d828817)
+![image](https://github.com/user-attachments/assets/a84a87a2-111f-43b0-95e9-3d4317866e6e)
 
 ☘ Bảng Diem
 
