@@ -41,4 +41,18 @@
 4. Kết quả AI phải phù hợp với yêu cầu, nếu quá sai lệch <=> sv ko đọc => Cấm thi
 5. Nên nhớ: cấm thi là ko có vùng cấm và thầy chưa bao giờ nói đùa về việc cấm thi.
 
+## 1.Sửa bảng DKMH và bảng Điểm từ bài tập 2 để có các bảng như yêu cầu.
++ Sửa bảng DKMH: Xóa thuộc tính DiemTP, thêm thuộc tính id_dk và đặt id_dk làm khóa chính (PK)
+  
+![image](https://github.com/user-attachments/assets/1e63c17f-c629-4714-b931-dae7493f5850)
+
++ Thêm bảng Diem và đặt id làm khóa chính (PK)
+![image](https://github.com/user-attachments/assets/73c22dd8-bbd7-48e2-957d-85fb127a4303)
+
++ Thêm khóa ngoại (FK) cho bảng Diem
+![image](https://github.com/user-attachments/assets/77faec88-9b93-4646-96b8-a7107a973bc0)
+
+
+
+
 
