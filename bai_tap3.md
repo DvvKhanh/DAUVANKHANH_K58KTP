@@ -52,6 +52,53 @@
 + Thêm khóa ngoại (FK) cho bảng Diem
 ![image](https://github.com/user-attachments/assets/77faec88-9b93-4646-96b8-a7107a973bc0)
 
+## 2.Nhập dữ liệu demo cho các bảng (nhập có kiểm soát từ tính năng Edit trên UI của mssm)
+☘ Bảng Sinh Vien
+
+![image](https://github.com/user-attachments/assets/be96c3e5-5234-4f75-b13f-4d8cbf2a3888)
+
+☘ Bảng Lop
+
+![image](https://github.com/user-attachments/assets/29c8d543-6642-4d97-8eb7-d63368b1589f)
+
+☘ Bảng GVCN
+
+![image](https://github.com/user-attachments/assets/f022d9bb-b5ab-485c-9bae-9e35fe60ef3b)
+
+☘ Bảng LopSV
+
+![image](https://github.com/user-attachments/assets/98f175fc-a7cc-46ef-867d-ff686961c1d9)
+
+☘ Bảng GiaoVien
+
+![image](https://github.com/user-attachments/assets/2e7be0d3-74cb-457a-8716-b4307395d063)
+
+☘ Bảng BoMon
+
+![image](https://github.com/user-attachments/assets/745268e7-e6b0-49ef-882e-f3e2340662a4)
+
+☘ Bảng Khoa
+
+![image](https://github.com/user-attachments/assets/1e2e3231-2185-4b54-986f-37597a0ddc07)
+
+☘ Bảng MonHoc
+
+![image](https://github.com/user-attachments/assets/aff43ab0-1442-4398-9aa4-43185d496522)
+
+☘ Bảng LopHP
+
+![image](https://github.com/user-attachments/assets/1422e998-250f-4925-be3d-cb5c267efc27)
+
+☘ Bảng DKMH
+
+![image](https://github.com/user-attachments/assets/fa6adfe4-28a1-4049-be9a-cba55d828817)
+
+☘ Bảng Diem
+
+![image](https://github.com/user-attachments/assets/b66c3a65-dff7-4b84-848c-3e525f30ebca)
+
+
+
 
 
 
