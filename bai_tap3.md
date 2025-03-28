@@ -46,7 +46,8 @@
   
 ![image](https://github.com/user-attachments/assets/1e63c17f-c629-4714-b931-dae7493f5850)
 
-+ Thêm bảng Diem 
++ Thêm bảng Diem
+  
 ![image](https://github.com/user-attachments/assets/96d08030-4f6c-42df-96b4-b560a8983069)
 
 + Đặt id làm khóa chính (PK)
