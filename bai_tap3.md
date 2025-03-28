@@ -115,16 +115,16 @@
 
 ![image](https://github.com/user-attachments/assets/b66c3a65-dff7-4b84-848c-3e525f30ebca)
 
-☘ Tạo diagram mô tả các PK, FK của db. Chụp hình kết quả các bảng có các đường nối 1-->nhiều
+## 3. Tạo diagram mô tả các PK, FK của db. Chụp hình kết quả các bảng có các đường nối 1-->nhiều
 + Thao tác để tạo diagram mô tả các PK, FK của db
 ![image](https://github.com/user-attachments/assets/3bd3b1d9-8bbd-4000-a0cd-af5de0192335)
 
-![image](https://github.com/user-attachments/assets/0eaca632-ff55-4628-a410-9dc339a4e526)
+![Screenshot 2025-03-28 214521](https://github.com/user-attachments/assets/cd6caab2-424a-4c94-bb29-416c9c15360b)
 
 + Kết quả thu được
 ![Screenshot 2025-03-28 083901](https://github.com/user-attachments/assets/8c42d846-5e87-45c7-9c2a-b5a45bdce829)
 
-## 3. Viết lệnh truy vấn để: Tính được điểm thành phần của 1 sinh viên đang học tại 1 lớp học phần.
+## 4. Viết lệnh truy vấn để: Tính được điểm thành phần của 1 sinh viên đang học tại 1 lớp học phần.
 
 
 
