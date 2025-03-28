@@ -46,11 +46,20 @@
   
 ![image](https://github.com/user-attachments/assets/1e63c17f-c629-4714-b931-dae7493f5850)
 
-+ Thêm bảng Diem và đặt id làm khóa chính (PK)
-![image](https://github.com/user-attachments/assets/73c22dd8-bbd7-48e2-957d-85fb127a4303)
++ Thêm bảng Diem 
+![image](https://github.com/user-attachments/assets/96d08030-4f6c-42df-96b4-b560a8983069)
+
++ Đặt id làm khóa chính (PK)
+![Screenshot 2025-03-28 181417](https://github.com/user-attachments/assets/2825f74b-156f-4cc2-9fb9-b341e8909606)
 
 + Thêm khóa ngoại (FK) cho bảng Diem
-![image](https://github.com/user-attachments/assets/77faec88-9b93-4646-96b8-a7107a973bc0)
+![image](https://github.com/user-attachments/assets/469b708f-e7a1-4861-a77a-f6ae2102123d)
+
+![image](https://github.com/user-attachments/assets/945596f6-8c5b-4007-b969-b3ea5e3e7b9e)
+
+![image](https://github.com/user-attachments/assets/244e3881-7db7-4693-a14b-1e2892bda2fc)
+
+![image](https://github.com/user-attachments/assets/ca53b14d-9c55-42c0-bd56-3dab9217d839)
 
 + Thêm điều kiện (CK) cho bảng Diem: diem >= 0 AND diem <= 10
 ![image](https://github.com/user-attachments/assets/ed9dbb65-7ea1-4344-844d-f129ccb35389)
