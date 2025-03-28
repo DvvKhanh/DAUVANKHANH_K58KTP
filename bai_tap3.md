@@ -42,7 +42,7 @@
 5. Nên nhớ: cấm thi là ko có vùng cấm và thầy chưa bao giờ nói đùa về việc cấm thi.
 
 ## 1. Sửa bảng DKMH và bảng Điểm từ bài tập 2 để có các bảng như yêu cầu.
-+ Sửa bảng DKMH: Xóa thuộc tính DiemTP, thêm thuộc tính id_dk và đặt id_dk làm khóa chính (PK)
++ Sửa bảng DKMH: Xóa trường DiemTP, thêm trường id_dk và đặt id_dk làm khóa chính (PK)
   
 ![image](https://github.com/user-attachments/assets/1e63c17f-c629-4714-b931-dae7493f5850)
 
@@ -51,6 +51,12 @@
 
 + Thêm khóa ngoại (FK) cho bảng Diem
 ![image](https://github.com/user-attachments/assets/77faec88-9b93-4646-96b8-a7107a973bc0)
+
++ Thêm điều kiện (CK) cho bảng Diem: diem >= 0 AND diem <= 10
+![image](https://github.com/user-attachments/assets/ed9dbb65-7ea1-4344-844d-f129ccb35389)
+
++ Kiểm tra điều kiện
+![image](https://github.com/user-attachments/assets/7f297a27-98bd-4a7d-a9f5-25c33c72a8cf)
 
 ## 2. Nhập dữ liệu demo cho các bảng (nhập có kiểm soát từ tính năng Edit trên UI của mssm)
 ☘ Bảng Sinh Vien
