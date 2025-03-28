@@ -41,7 +41,7 @@
 4. Kết quả AI phải phù hợp với yêu cầu, nếu quá sai lệch <=> sv ko đọc => Cấm thi
 5. Nên nhớ: cấm thi là ko có vùng cấm và thầy chưa bao giờ nói đùa về việc cấm thi.
 
-## 1.Sửa bảng DKMH và bảng Điểm từ bài tập 2 để có các bảng như yêu cầu.
+## 1. Sửa bảng DKMH và bảng Điểm từ bài tập 2 để có các bảng như yêu cầu.
 + Sửa bảng DKMH: Xóa thuộc tính DiemTP, thêm thuộc tính id_dk và đặt id_dk làm khóa chính (PK)
   
 ![image](https://github.com/user-attachments/assets/1e63c17f-c629-4714-b931-dae7493f5850)
@@ -52,7 +52,7 @@
 + Thêm khóa ngoại (FK) cho bảng Diem
 ![image](https://github.com/user-attachments/assets/77faec88-9b93-4646-96b8-a7107a973bc0)
 
-## 2.Nhập dữ liệu demo cho các bảng (nhập có kiểm soát từ tính năng Edit trên UI của mssm)
+## 2. Nhập dữ liệu demo cho các bảng (nhập có kiểm soát từ tính năng Edit trên UI của mssm)
 ☘ Bảng Sinh Vien
 
 ![image](https://github.com/user-attachments/assets/be96c3e5-5234-4f75-b13f-4d8cbf2a3888)
@@ -97,7 +97,7 @@
 
 ![image](https://github.com/user-attachments/assets/b66c3a65-dff7-4b84-848c-3e525f30ebca)
 
-
+## 3. Viết lệnh truy vấn để: Tính được điểm thành phần của 1 sinh viên đang học tại 1 lớp học phần.
 
 
 
