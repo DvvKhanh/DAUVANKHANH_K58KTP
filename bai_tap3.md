@@ -1,4 +1,4 @@
-# Bài tập 03 của sinh viên : Đậu Văn Khánh - K225480106099 - Môn Hệ quản trị CSDL
+# Bài tập về nhà 03 của sinh viên : Đậu Văn Khánh - K225480106099 - Môn Hệ quản trị CSDL
 ## BÀI TẬP VỀ NHÀ 03 - MÔN HỆ QUẢN TRỊ CSDL:
 
 ## DEADLINE: 23H59 NGÀY 30/03/2025
@@ -41,14 +41,4 @@
 4. Kết quả AI phải phù hợp với yêu cầu, nếu quá sai lệch <=> sv ko đọc => Cấm thi
 5. Nên nhớ: cấm thi là ko có vùng cấm và thầy chưa bao giờ nói đùa về việc cấm thi.
 
-## Nhắc lại nội quy học tập:
-SV vi phạm 1 trong các lỗi sau chỉ 1 lần sẽ bị cấm thi: 🚫
-1. Nghỉ ko lý do chính đáng.
-2. Không làm bài tập về nhà.
-3. Vắng bài kiểm tra.
-4. Nói chuyện tự do trong lớp.
-
-## Bên cạnh đó, sẽ có điểm thưởng 10đ cho sv :  🎁
-1. Trả lời đúng câu hỏi trên lớp.
-2. Hỏi câu hỏi làm thầy khó trả lời.
 
