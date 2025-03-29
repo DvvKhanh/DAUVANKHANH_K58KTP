@@ -131,6 +131,7 @@ SELECT
     SV.Hoten,
     LHP.MalopHP, 
     LHP.TenlopHP, 
+	D.id_dk,
     DKMH.Diemthi,
     DKMH.Phantramthi,
     (SELECT COUNT(*) FROM Diem WHERE Diem.id_dk IN (SELECT id_dk FROM DKMH WHERE DKMH.Masv = SV.Masv)) AS TongSoDiem,
@@ -141,16 +142,9 @@ JOIN DKMH ON SV.Masv = DKMH.Masv
 JOIN LopHP LHP ON DKMH.MalopHP = LHP.MalopHP
 JOIN Diem D ON DKMH.id_dk = D.id_dk
 GROUP BY 
-    SV.Masv, SV.Hoten, LHP.MalopHP, LHP.TenlopHP, DKMH.Diemthi, DKMH.Phantramthi
+    SV.Masv, SV.Hoten, LHP.MalopHP, LHP.TenlopHP, D.id_dk, DKMH.Diemthi, DKMH.Phantramthi
 ```
 
 + Kết quả
 
-![Screenshot 2025-03-29 204941](https://github.com/user-attachments/assets/7fa6a688-659b-4547-b5b3-4104078fd4ca)
-
-
-
-
-
-
-
+![image](https://github.com/user-attachments/assets/5641e1ba-d410-451c-98d0-849d13e6b430)
