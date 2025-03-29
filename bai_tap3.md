@@ -1,4 +1,3 @@
-# Bài tập về nhà 03 của sinh viên : Đậu Văn Khánh - K225480106099 - Môn Hệ quản trị CSDL
 ## BÀI TẬP VỀ NHÀ 03 - MÔN HỆ QUẢN TRỊ CSDL:
 
 ## DEADLINE: 23H59 NGÀY 30/03/2025
@@ -113,7 +112,7 @@
 
 ☘ Bảng Diem
 
-![image](https://github.com/user-attachments/assets/b66c3a65-dff7-4b84-848c-3e525f30ebca)
+![image](https://github.com/user-attachments/assets/0fb96a77-3c37-4856-a884-2feefce5488a)
 
 ## 3. Tạo diagram mô tả các PK, FK của db. Chụp hình kết quả các bảng có các đường nối 1-->nhiều
 + Thao tác để tạo diagram mô tả các PK, FK của db
@@ -125,6 +124,27 @@
 ![Screenshot 2025-03-28 083901](https://github.com/user-attachments/assets/8c42d846-5e87-45c7-9c2a-b5a45bdce829)
 
 ## 4. Viết lệnh truy vấn để: Tính được điểm thành phần của 1 sinh viên đang học tại 1 lớp học phần.
+```sql
+SELECT 
+    SV.Masv, 
+    SV.Hoten,
+    LHP.MalopHP, 
+    LHP.TenlopHP, 
+    DKMH.Diemthi,
+    DKMH.Phantramthi,
+    (SELECT COUNT(*) FROM Diem WHERE Diem.id_dk IN (SELECT id_dk FROM DKMH WHERE DKMH.Masv = SV.Masv)) AS TongSoDiem,
+    ISNULL(AVG(D.diem), 0) AS DiemThanhPhan
+FROM 
+    SinhVien SV
+JOIN DKMH ON SV.Masv = DKMH.Masv
+JOIN LopHP LHP ON DKMH.MalopHP = LHP.MalopHP
+JOIN Diem D ON DKMH.id_dk = D.id_dk
+GROUP BY 
+    SV.Masv, SV.Hoten, LHP.MalopHP, LHP.TenlopHP, DKMH.Diemthi, DKMH.Phantramthi
+
+☘ Kết quả
+![Screenshot 2025-03-29 204941](https://github.com/user-attachments/assets/46fd940f-472a-4ac2-adcb-b13e7740b8e8)
+
 
 
 
