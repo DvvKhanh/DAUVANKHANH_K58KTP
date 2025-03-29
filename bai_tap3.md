@@ -124,6 +124,7 @@
 ![Screenshot 2025-03-28 083901](https://github.com/user-attachments/assets/8c42d846-5e87-45c7-9c2a-b5a45bdce829)
 
 ## 4. Viết lệnh truy vấn để: Tính được điểm thành phần của 1 sinh viên đang học tại 1 lớp học phần.
++ Viết lệnh truy vấn: Trong Database QLSV -> chọn New Query 
 ```sql
 SELECT 
     SV.Masv, 
@@ -141,9 +142,11 @@ JOIN LopHP LHP ON DKMH.MalopHP = LHP.MalopHP
 JOIN Diem D ON DKMH.id_dk = D.id_dk
 GROUP BY 
     SV.Masv, SV.Hoten, LHP.MalopHP, LHP.TenlopHP, DKMH.Diemthi, DKMH.Phantramthi
+```
 
-☘ Kết quả
-![Screenshot 2025-03-29 204941](https://github.com/user-attachments/assets/46fd940f-472a-4ac2-adcb-b13e7740b8e8)
++ Kết quả
+
+![Screenshot 2025-03-29 204941](https://github.com/user-attachments/assets/7fa6a688-659b-4547-b5b3-4104078fd4ca)
 
 
 
