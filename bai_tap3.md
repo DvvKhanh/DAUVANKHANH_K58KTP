@@ -134,7 +134,7 @@ SELECT
 	D.id_dk,
     DKMH.Diemthi,
     DKMH.Phantramthi,
-    (SELECT COUNT(*) FROM Diem WHERE Diem.id_dk IN (SELECT id_dk FROM DKMH WHERE DKMH.Masv = SV.Masv)) AS TongSoDiem,
+    (SELECT COUNT(*) FROM Diem WHERE Diem.id_dk IN (SELECT id_dk FROM DKMH WHERE DKMH.Masv = SV.Masv)) AS SoLuongDiem,
     ISNULL(AVG(D.diem), 0) AS DiemThanhPhan
 FROM 
     SinhVien SV
@@ -147,4 +147,5 @@ GROUP BY
 
 + Kết quả
 
-![image](https://github.com/user-attachments/assets/5641e1ba-d410-451c-98d0-849d13e6b430)
+![image](https://github.com/user-attachments/assets/7e560cf7-abc3-4cfa-9902-bf8f1c5de94b)
+
